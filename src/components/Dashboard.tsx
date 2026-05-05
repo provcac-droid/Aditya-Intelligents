@@ -22,7 +22,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onSelectGem }) => {
           Platform Live
         </div>
         <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
-          Welcome to <span className="text-indigo-600">Academic Intelligence</span>
+          Welcome to <span className="text-indigo-600">Aditya's Academic AI Agents</span>
         </h1>
         <p className="text-slate-500 text-lg leading-relaxed max-w-2xl">
           Empower your academic journey with specialized AI models designed specifically for Aditya University's unique standards and workflows.
