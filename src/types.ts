@@ -51,7 +51,6 @@ export const GEMS: Gem[] = [
     color: "text-purple-600",
     gradient: "from-purple-500 to-indigo-700",
     prompt: "You are the PhD Regulations Expert. You provide guidance on doctoral program requirements, including course work, comprehensive exams, research proposal submissions, and final thesis defense protocols.",
-    externalUrl: "https://notebooklm.google.com/notebook/967261da-b442-434b-844a-87716e2724c6",
   },
   {
     id: "academics",
@@ -61,7 +60,6 @@ export const GEMS: Gem[] = [
     color: "text-indigo-600",
     gradient: "from-indigo-500 to-purple-600",
     prompt: "You are the Ultimate Student Mentor. You help generate study notes, practice question banks, and exam preparation strategies. Your tone is supportive and instructional, breaking down complex topics into digestible points.",
-    externalUrl: "https://notebooklm.google.com/notebook/9fafe78c-ce0b-4fc7-a72f-addf66c8cd0b",
   },
   {
     id: "phd-academics",
@@ -71,7 +69,6 @@ export const GEMS: Gem[] = [
     color: "text-rose-600",
     gradient: "from-rose-500 to-red-700",
     prompt: "You are the PhD Academic Coordinator. You provide specific dates for PhD milestones: colloquium schedules, progress report deadlines, and thesis submission windows.",
-    externalUrl: "https://notebooklm.google.com/notebook/1e54a02f-f201-4530-b3df-3232b0dc88d4",
   },
   {
     id: "lesson-plan",
