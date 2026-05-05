@@ -42,7 +42,7 @@ export default function App() {
       <main className="flex-1 flex flex-col overflow-hidden">
         <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-8 shrink-0">
           <div className="flex items-center gap-2 text-sm text-slate-500">
-            <span className="text-slate-400">Aditya IntelliGems</span>
+            <span className="text-slate-400">Aditya University</span>
             <span className="text-slate-300">/</span>
             <span className="text-slate-900 font-medium capitalize">
               {activeNavId === 'dashboard' ? 'Dashboard' : activeGem?.title || 'Gem Interface'}

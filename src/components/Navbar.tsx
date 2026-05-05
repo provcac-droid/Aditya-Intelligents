@@ -17,7 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeGemId, onSelectGem }) => {
             <Sparkles size={20} className="text-white" />
           </div>
           <div className="flex flex-col">
-            <span className="font-bold text-slate-900 text-base tracking-tight leading-none">Aditya</span>
+            <span className="font-bold text-slate-900 text-base tracking-tight leading-none">Aditya University</span>
             <span className="text-indigo-600 text-xs font-bold tracking-wider uppercase mt-1">Intelligems</span>
           </div>
         </div>
