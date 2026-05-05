@@ -80,7 +80,7 @@ export function GemInterface({ gem, onBack }: GemInterfaceProps) {
             <div className="space-y-1">
               <h3 className="text-xl font-bold text-slate-900 tracking-tight">Active: {gem.title}</h3>
               <p className="text-slate-500 text-sm max-w-sm font-medium">
-                Ask anything about university standards or administrative tasks.
+                Ask anything about {gem.title}.
               </p>
             </div>
           </div>
@@ -137,7 +137,7 @@ export function GemInterface({ gem, onBack }: GemInterfaceProps) {
              <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={`How can I help with ${gem.title.toLowerCase()}?`}
+              placeholder={`Ask anything about ${gem.title}...`}
               className="w-full bg-slate-50 border border-slate-200 rounded-xl px-5 py-3.5 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-500/10 focus:bg-white transition-all placeholder:text-slate-400"
               disabled={isLoading}
             />
